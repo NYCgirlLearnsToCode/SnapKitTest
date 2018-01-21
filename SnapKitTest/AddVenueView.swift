@@ -31,12 +31,12 @@ class AddVenueView: UIView {
         return tf
     }()
     
-    //TODO: uses CollectionsCustomCollectionViewCell
+    //TODO: CollectionsCustomCollectionViewCell does not have the green plus on it
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         let cv = UICollectionView(frame: self.bounds, collectionViewLayout: layout)
         cv.backgroundColor = .green
-        cv.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
+        cv.register(CollectionsCustomCollectionViewCell.self, forCellWithReuseIdentifier: "CollectionsCustomCollectionViewCell")
         return cv
     }()
     
