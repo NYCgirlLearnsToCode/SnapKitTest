@@ -10,7 +10,7 @@ import SnapKit
 
 class SearchResultsDetailedViewController: UIViewController {
     
-    let myView = MyView()
+    let myView = SearchResultsDetailedView()
     
     
     override func viewDidLoad() {

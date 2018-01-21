@@ -12,7 +12,7 @@
 		D2253CF52010575200CE166D /* SearchResultsDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2253CF42010575200CE166D /* SearchResultsDetailedViewController.swift */; };
 		D2253CFA2010575200CE166D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2253CF92010575200CE166D /* Assets.xcassets */; };
 		D2253CFD2010575200CE166D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2253CFB2010575200CE166D /* LaunchScreen.storyboard */; };
-		D22E844620111B650003F563 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22E844520111B650003F563 /* MyView.swift */; };
+		D22E844620111B650003F563 /* SearchResultsDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22E844520111B650003F563 /* SearchResultsDetailedView.swift */; };
 		D22E8448201162B80003F563 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22E8447201162B80003F563 /* TabBarController.swift */; };
 		D22E844A201162F80003F563 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22E8449201162F80003F563 /* secondViewController.swift */; };
 		D22E844C20116BB20003F563 /* AddVenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22E844B20116BB20003F563 /* AddVenueViewController.swift */; };
@@ -30,7 +30,7 @@
 		D2253CF92010575200CE166D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2253CFC2010575200CE166D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2253CFE2010575300CE166D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D22E844520111B650003F563 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		D22E844520111B650003F563 /* SearchResultsDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsDetailedView.swift; sourceTree = "<group>"; };
 		D22E8447201162B80003F563 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		D22E8449201162F80003F563 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		D22E844B20116BB20003F563 /* AddVenueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVenueViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			children = (
 				D2253CF22010575200CE166D /* AppDelegate.swift */,
 				D2253CF42010575200CE166D /* SearchResultsDetailedViewController.swift */,
-				D22E844520111B650003F563 /* MyView.swift */,
+				D22E844520111B650003F563 /* SearchResultsDetailedView.swift */,
 				D22E8447201162B80003F563 /* TabBarController.swift */,
 				D22E844B20116BB20003F563 /* AddVenueViewController.swift */,
 				D22E84A3201276100003F563 /* AddVenueView.swift */,
@@ -232,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D22E844C20116BB20003F563 /* AddVenueViewController.swift in Sources */,
-				D22E844620111B650003F563 /* MyView.swift in Sources */,
+				D22E844620111B650003F563 /* SearchResultsDetailedView.swift in Sources */,
 				D22E84A4201276100003F563 /* AddVenueView.swift in Sources */,
 				D22E8448201162B80003F563 /* TabBarController.swift in Sources */,
 				D2253CF52010575200CE166D /* SearchResultsDetailedViewController.swift in Sources */,

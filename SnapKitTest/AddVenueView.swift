@@ -117,7 +117,10 @@ class AddVenueView: UIView {
             make.height.equalTo(snp.height).multipliedBy(0.3)
             make.centerX.equalTo(snp.centerX)
         }
-            
+//        collectionView.snp.makeConstraints { (make) -> Void in
+//            make.edges.equalTo(self.safeAreaLayoutGuide).inset(UIEdgeInsetsMake(0, 0, 0, 0))
+//        }
+        //tried richard's suggest and it pinned to all sides resulting in a fullscreen collection view
     }
     
 }

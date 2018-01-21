@@ -9,7 +9,7 @@
 import UIKit
 import SnapKit
 
-class MyView: UIView {
+class SearchResultsDetailedView: UIView {
     
     lazy var label: UILabel = {
         let label = UILabel()

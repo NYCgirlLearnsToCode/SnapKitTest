@@ -12,7 +12,7 @@ class AddVenueViewController: UIViewController {
 
     let cellSpacing: CGFloat =  5.0
     
-    let myView = MyView()
+    let myView = SearchResultsDetailedView()
 
     let addVenueView = AddVenueView()
     
